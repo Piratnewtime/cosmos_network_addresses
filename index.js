@@ -6,7 +6,7 @@ const {
 
 module.exports = {};
 
-module.exports.getAddressFromTx = function getAddressFromTx (tx, prefix = 'cosmos') {
+module.exports.getAddressesFromTx = function getAddressesFromTx (tx, prefix = 'cosmos') {
     if (!tx.signatures) throw new Error(`"tx.signatures" not found`);
     const list = [];
     tx.signatures.forEach(function({pub_key: {value}}){

@@ -6,7 +6,7 @@ $ npm install cosmos_network_addresses
 
 ## Usage
 ```js
-const { getAddressFromTx } = require('cosmos_network_addresses');
+const { getAddressesFromTx } = require('cosmos_network_addresses');
 
 const tx = {
     // ...
@@ -21,7 +21,7 @@ const tx = {
     ]
 };
 
-const addresses = getAddressFromTx(tx, 'secret');
+const addresses = getAddressesFromTx(tx, 'secret');
 ```
 
 Result:

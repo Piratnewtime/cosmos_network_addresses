@@ -1,5 +1,5 @@
 const assert = require('assert');
-const { getAddressFromTx } = require('../index');
+const { getAddressesFromTx } = require('../index');
 
 describe('Get address from transaction', function () {
 
@@ -39,7 +39,7 @@ describe('Get address from transaction', function () {
     };
 
     it('Get secret address', ()=> {
-		assert.deepStrictEqual(getAddressFromTx(example, 'secret'), ["secret1qk0q520vncmsrt5ps090v6663mk20pl3gq88dn"]);
+		assert.deepStrictEqual(getAddressesFromTx(example, 'secret'), ["secret1qk0q520vncmsrt5ps090v6663mk20pl3gq88dn"]);
 	});
 
 });
