@@ -1,0 +1,25 @@
+{
+  "name": "cosmos_network_addresses",
+  "version": "1.0.0",
+  "description": "Show addresses of transaction senders",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "keywords": [
+    "cosmos",
+    "network",
+    "addresses",
+    "parser",
+    "tendermint"
+  ],
+  "author": "piratnewtime",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Piratnewtime/cosmos_network_addresses.git"
+  },
+  "dependencies": {
+    "create-hash": "^1.2.0"
+  }
+}
