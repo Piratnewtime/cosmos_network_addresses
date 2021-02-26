@@ -1,6 +1,6 @@
 {
   "name": "cosmos_network_addresses",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Show addresses of transaction senders",
   "main": "index.js",
   "scripts": {
